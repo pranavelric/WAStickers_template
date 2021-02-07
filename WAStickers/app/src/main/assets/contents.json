@@ -1,0 +1,2534 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "PubG PRo",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "tray_Cuppy.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_Cuppy_smile.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "BACKACK.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "BANANA-MAN.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "BIKER.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "BOAT.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "BUGGY.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "CAREPACKAGE.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "CHICKENDINNER.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "CHIKENPLAY.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "CROUCH-JUMP.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "DACIA.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "DEATH.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "DRINK.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "FRAG-GRENADE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "GASCAN.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "INJECT.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "KAR98.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "M4GUN.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MainPubgTHeme.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MEDKIT.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MOLOTOV.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MOTOCYCLE2.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MOTOCYCLE3.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PAN.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PAN2.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PILLS.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PLANE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "REDZONE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "SMOKE-GRENADE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "UAZ.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "PubG Funny",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "tray.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "pubg_01.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "pubg_02.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "pubg_03.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "pubg_04.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "pubg_05.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "pubg_06.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "pubg_07.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "pubg_08.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "pubg_09.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "pubg_10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "pubg_11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_17.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_18.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_19.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_20.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_21.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_22.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_23.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_24.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_25.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_26.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_27.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_28.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_29.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "pubg_30.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "PubG Maestro",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "tray_pubg.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "4.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "5.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "6.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "7.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "8.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "17.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "18.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "19.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "20.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "21.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "22.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "23.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "24.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "25.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "26.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "27.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "28.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "29.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "30.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "4",
+      "name": "PubG Accessories",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "pubg_access.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "4.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "5.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "6.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "7.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "8.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "17.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "18.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "19.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "20.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "22.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "23.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "24.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "25.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "26.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "27.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "28.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "29.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "30.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "5",
+      "name": "PubG Memes",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "tray_meme.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "4.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "5.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "6.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "7.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "8.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "6",
+      "name": "Tamil PubG",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "tray_tamil.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "4.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "5.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "6.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "7.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "8.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "17.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "18.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "19.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "20.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "7",
+      "name": "PubG PRO",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "pubg.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "BACKACK.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "BANANA-MAN.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "BOAT.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "BUGGY.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "CAREPACKAGE.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "CROUCH-JUMP.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "DACIA.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "DEATH.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "DRINK.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "FRAG-GRENADE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "GASCAN.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "HELMET.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "INJECT.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "KAR98.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "logo.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "M4GUN.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MainPubgTHeme.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MEDKIT.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MOLOTOV.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MOTOCYCLE2.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "MOTOCYCLE3.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PAN.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PAN2.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PILLS.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "PLANE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "REDZONE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "SMOKE-GRENADE.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "UAZ.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "WINNER.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "WINNER2.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "8",
+      "name": "PubG Trending 1",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "tray_pubg.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "4.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "5.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "6.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "7.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "8.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "17.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "18.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "19.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "20.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "21.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "22.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "23.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "24.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "25.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "26.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "27.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "28.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "29.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "30.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "9",
+      "name": "PubG Funny 1",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "tray_pubg_funny.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "2.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "4.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "5.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "6.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "7.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "8.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "10",
+      "name": "PubG Funny 2",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "pubg_funny.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "1.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "4.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "5.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "6.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "7.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "8.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "17.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "18.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "19.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "11",
+      "name": "Fornite",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "fornite.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "fortnitev1n01.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n02.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n03.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n04.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n05.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n06.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n07.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n08.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n09.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n10.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n11.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n12.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n13.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n14.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n15.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n16.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n17.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n18.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n19.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n20.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n21.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n22.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n23.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n24.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n25.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n26.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n27.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n28.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n29.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "fortnitev1n30.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "12",
+      "name": "PubG Hindi 1",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "jai-pubg-min.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20200715-WA0012.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0013.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0014.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0015.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0016.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0017.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0018.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0019.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0020.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0021.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0022.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0023.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0024.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0025.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0026.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0027.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0028.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0029.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0030.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0031.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0032.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0033.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0034.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200715-WA0035.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "13",
+      "name": "PubG Hindi 2",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "chalo-pubg-min.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20200716-WA0008.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0009.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0010.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0011.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0012.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0013.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0014.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0015.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0016.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0017.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0018.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0019.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0020.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0021.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0022.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0023.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0024.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0025.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0026.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0027.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "14",
+      "name": "PubG Hindi 3",
+      "publisher": "Professional Cipher",
+      "tray_image_file": "hojai-pubg-min.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "STK-20200716-WA0028.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0029.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0030.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0031.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0032.webp",
+          "emojis": [
+            "☕",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0033.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0034.webp",
+          "emojis": [
+            "😆",
+            "😂"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0035.webp",
+          "emojis": [
+            "😩",
+            "😰"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0036.webp",
+          "emojis": [
+            "😭",
+            "💧"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0037.webp",
+          "emojis": [
+            "😍",
+            "♥"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0038.webp",
+          "emojis": [
+            "💔",
+            "👎"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0039.webp",
+          "emojis": [
+            "😍",
+            "💑"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0040.webp",
+          "emojis": [
+            "😘",
+            "🍪"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0041.webp",
+          "emojis": [
+            "🤔",
+            "😐"
+          ]
+        },
+        {
+          "image_file": "STK-20200716-WA0042.webp",
+          "emojis": [
+            "😱",
+            "😵"
+          ]
+        }
+      ]
+    }
+  ]
+}
+

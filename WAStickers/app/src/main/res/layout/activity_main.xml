@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="mainAct"
+            type="com.template.samplestickerapp.main.ui.main.MainActivity" />
+
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.main.MainFragment">
+
+        <ImageView
+            android:id="@+id/top_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@color/white"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <FrameLayout
+            android:id="@+id/fl_adplaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/top_img"
+            app:layout_constraintBottom_toTopOf="@id/share"
+            android:layout_marginBottom="@dimen/_21sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            />
+
+
+
+        <com.ornach.nobobutton.NoboButton
+
+            android:onClick="@{mainAct::more}"
+            android:id="@+id/more_apps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_11sdp"
+            android:minWidth="@dimen/_90sdp"
+            android:minHeight="@dimen/_30sdp"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:nb_backgroundColor="#EF3D56"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_focusColor="#B83CC3"
+            app:nb_fontIcon="&#xf069;"
+            app:nb_radius="5dp"
+            app:nb_text="More apps"
+            app:nb_textColor="#FFF" />
+
+        <com.royrodriguez.transitionbutton.TransitionButton
+            android:id="@+id/transition_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:layout_marginEnd="@dimen/_11sdp"
+            android:layout_marginBottom="@dimen/_11sdp"
+            android:layout_weight="3"
+            android:text="View Stickers"
+            android:textColor="@android:color/white"
+            app:defaultColor="#9E1226"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/share"
+            app:layout_constraintStart_toEndOf="@id/more_apps"
+            app:loaderColor="@android:color/white" />
+
+        <com.ornach.nobobutton.NoboButton
+
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_11sdp"
+            android:layout_weight="1"
+            android:minWidth="@dimen/_70sdp"
+            android:minHeight="@dimen/_30sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:nb_backgroundColor="#EF3D56"
+            app:nb_borderColor="#FFFFFF"
+            app:nb_borderWidth="2dp"
+            app:nb_focusColor="#B83CC3"
+            app:nb_fontIcon="&#xf005;"
+            app:nb_radius="5dp"
+            app:nb_text="Rate Us"
+            android:onClick="@{mainAct::rate}"
+            app:nb_textColor="#FFF" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+<variable
+    name="moreAppAct"
+    type="com.template.samplestickerapp.main.ui.main.MoreAppsActivity" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".main.ui.main.MoreAppsActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:padding="@dimen/_5sdp"
+            android:id="@+id/rv_mydata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:paddingHorizontal="1dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/item_my_data_list" />
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:minHeight="@dimen/_100sdp"
+            android:indeterminateTint="@color/red"
+            android:visibility="gone"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

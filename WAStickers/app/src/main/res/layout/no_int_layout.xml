@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@color/my_dark_blue">-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/no_int_img"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_no_int_error"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/no_int_heading"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="No internet connection!"-->
+<!--        android:textColor="@color/less_white"-->
+<!--        android:textSize="@dimen/_20sdp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/no_int_img" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/no_int_details"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/_10sdp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Please check your internet connection and try again"-->
+<!--        android:textColor="#EDDB37"-->
+<!--        android:textSize="@dimen/_14sdp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/no_int_heading" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/refresh"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/yellow"-->
+<!--        android:minWidth="@dimen/_90sdp"-->
+<!--        android:text="Refresh"-->
+<!--        android:textColor="@color/my_dark_blue"-->
+<!--        app:backgroundTint="@color/yellow"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/no_int_details"-->
+<!--        app:rippleColor="@color/my_dark_blue"-->
+<!--        />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_data_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:rippleColor="@color/red"
+
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F3F3">
+
+        <ImageView
+            android:id="@+id/data_img"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/app_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/data_img"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rating"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:indeterminateTint="@color/red"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="0.1"
+            app:layout_constraintStart_toEndOf="@id/data_img"
+            app:layout_constraintTop_toBottomOf="@id/app_name" />
+
+
+        <TextView
+            android:id="@+id/app_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/data_img"
+            app:layout_constraintTop_toBottomOf="@id/rating"
+
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

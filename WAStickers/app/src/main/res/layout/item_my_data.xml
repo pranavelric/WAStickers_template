@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="moreApp"
+            type="com.template.samplestickerapp.main.data.model.MoreApps" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/my_data_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:rippleColor="@color/red"
+        android:layout_margin="@dimen/_5sdp"
+
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F3F3F3"
+            >
+
+            <ImageView
+                android:id="@+id/data_img"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+
+                app:imageUrl="@{moreApp.app_image}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+
+                android:id="@+id/app_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:text="@{moreApp.app_name}"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/data_img"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:id="@+id/rating"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:indeterminateTint="@color/red"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.1"
+                app:layout_constraintStart_toEndOf="@id/data_img"
+                app:layout_constraintTop_toBottomOf="@id/app_name" />
+
+
+            <TextView
+                android:id="@+id/app_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:text="@{moreApp.app_desc}"
+android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="@dimen/_12sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/data_img"
+                app:layout_constraintTop_toBottomOf="@id/rating"
+
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

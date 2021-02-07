@@ -1,0 +1,211 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: "androidx.navigation.safeargs.kotlin"
+apply plugin: 'dagger.hilt.android.plugin'
+
+android {
+    //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
+    aaptOptions {
+        noCompress "webp"
+    }
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.example.samplestickerappp"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        def contentProviderAuthority = applicationId + ".stickercontentprovider"
+        // Creates a placeholder property to use in the manifest.
+        manifestPlaceholders =
+                [contentProviderAuthority: contentProviderAuthority]
+        // Adds a new field for the authority to the BuildConfig class.
+        buildConfigField("String",
+                "CONTENT_PROVIDER_AUTHORITY",
+                "\"${contentProviderAuthority}\"")
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+    packagingOptions {
+        exclude 'lib/*/libnative-imagetranscoder.so'
+        exclude 'lib/*/libnative-filters.so'
+    }
+
+    // Configures multiple APKs based on ABI.
+    // see https://developer.android.com/studio/build/configure-apk-splits#configure-abi-split
+//    splits {
+//        abi {
+//            enable true // Enables building multiple APKs per ABI.
+//            universalApk true // Specifies that we want to also generate a universal APK that includes all ABIs.
+//        }
+//    }
+}
+
+task checkDebug {
+    doLast {
+        println("checkDebug")
+        if (android.defaultConfig.applicationId.startsWith("com.whatsapp")) {
+            throw new GradleException("applicationId in defaultConfig cannot start with com.whatsapp, please change your applicationId in app/build.gradle")
+        }
+        checkApplicationIdInDebug()
+    }
+}
+
+private void checkApplicationIdInDebug() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def ignoreApplicationIdCheck = properties.getProperty('ignoreApplicationIdCheck')
+    if (ignoreApplicationIdCheck == null) {
+        if (android.defaultConfig.applicationId == "com.example.samplestickerapp") {
+            throw new GradleException("Your applicationId is currently com.example.samplestickerapp, please change your applicationId to a different string in app/build.gradle in line 10")
+        }
+    } else {
+        println("application id check ignored")
+    }
+}
+
+
+task checkRelease {
+    doLast {
+        println("checkRelease")
+        if (android.defaultConfig.applicationId.startsWith("com.example")) {
+            throw new GradleException("applicationId in defaultConfig cannot start with com.example, please change your applicationId in app/build.gradle")
+        }
+    }
+}
+
+tasks.whenTaskAdded { task ->
+    println(task.name)
+    if (task.name.contains("assembleDebug")) {
+        task.dependsOn checkDebug
+    }
+    if (task.name.contains("assembleRelease")) {
+        task.dependsOn checkRelease
+    }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    def fresco_version = '2.2.0'
+    implementation "com.facebook.fresco:fresco:$fresco_version"
+    implementation "com.facebook.fresco:webpsupport:$fresco_version"
+    implementation "com.facebook.fresco:animated-webp:$fresco_version"
+    implementation "com.facebook.fresco:animated-base:$fresco_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+
+    // Architectural Components
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2'
+
+    // Coroutine Lifecycle Scopes
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
+
+    // Navigation Components
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.2"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.2"
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    kapt 'com.github.bumptech.glide:compiler:4.11.0'
+
+
+    //Dagger hilt
+    implementation "com.google.dagger:hilt-android:2.28.3-alpha"
+    kapt "com.google.dagger:hilt-android-compiler:2.28.3-alpha"
+    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02'
+    kapt 'androidx.hilt:hilt-compiler:1.0.0-alpha02'
+
+    //size library
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //gif view
+    implementation 'com.github.Cutta:GifView:1.4'
+
+
+//    //room
+//
+//    implementation "androidx.room:room-runtime:2.2.6"
+//    kapt "androidx.room:room-compiler:2.2.6"
+//    implementation "androidx.room:room-ktx:2.2.6"
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+    implementation "com.squareup.retrofit2:converter-moshi:2.9.0"
+
+//    //page indicator
+//    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
+//    //shine button
+//    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
+
+
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+//    //boom menu
+//    implementation 'com.github.Yalantis:Context-Menu.Android:1.1.4'
+
+
+//    //tag
+//    implementation 'co.lujun:androidtagview:1.1.7'
+//    implementation 'com.github.florent37:diagonallayout:1.0.9'
+
+
+    implementation 'com.ornach.nobobutton:nobobutton:1.6'
+
+    implementation 'com.royrodriguez:transitionbutton:0.2.0'
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+    implementation 'com.github.guy-4444:SmartRateUsDialog-Android:1.00.08'
+
+
+
+
+
+
+}
+repositories {
+    maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    mavenCentral()
+}
